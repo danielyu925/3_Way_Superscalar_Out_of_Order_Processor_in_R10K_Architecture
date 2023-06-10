@@ -78,84 +78,9 @@ make "the module name"
 
 ```
 .
-├── ISA.svh
 ├── Makefile
-├── README.md
-├── aslinker.lds
-├── auto_test.sh
-├── crt.s
-├── initialnovas.rc
-├── linker.lds
-├── synth
-│   ├── arch.tcl
-│   ├── cache.tcl
-│   ├── complete_stage.tcl
-│   ├── dispatch.tcl
-│   ├── fetch.tcl
-│   ├── freelist.tcl
-│   ├── issue.tcl
-│   ├── maptable.tcl
-│   ├── pipeline.tcl
-│   ├── prf.tcl
-│   ├── retire.tcl
-│   ├── rob.tcl
-│   └── rs.tcl
-├── sys_defs.svh
-├── test_progs
-│   ├── alexnet.c
-│   ├── backtrack.c
-│   ├── basic_malloc.c
-│   ├── bfs.c
-│   ├── dft.c
-│   ├── fc_forward.c
-│   ├── graph.c
-│   ├── haha.s
-│   ├── insertionsort.c
-│   ├── matrix_mult_rec.c
-│   ├── mergesort.c
-│   ├── mult_no_lsq.s
-│   ├── omegalul.c
-│   ├── outer_product.c
-│   ├── priority_queue.c
-│   ├── quicksort.c
-│   ├── rv32_btest1.s
-│   ├── rv32_btest2.s
-│   ├── rv32_copy.s
-│   ├── rv32_copy_long.s
-│   ├── rv32_evens.s
-│   ├── rv32_evens_long.s
-│   ├── rv32_fib.s
-│   ├── rv32_fib_long.s
-│   ├── rv32_fib_rec.s
-│   ├── rv32_halt.s
-│   ├── rv32_insertion.s
-│   ├── rv32_mult.s
-│   ├── rv32_parallel.s
-│   ├── rv32_saxpy.s
-│   ├── sampler.s
-│   ├── sort_search.c
-│   └── tj_malloc.h
-├── testbench
-│   ├── arch_testbench.sv
-│   ├── complete_testbench.sv
-│   ├── dispatch_testbench.sv
-│   ├── fetch_testbench.sv
-│   ├── freelist_testbench.sv
-│   ├── issue_testbench.sv
-│   ├── maptable_testbench.sv
-│   ├── mem.sv
-│   ├── pipe_print.c
-│   ├── prf_testbench.sv
-│   ├── retire_testbench.sv
-│   ├── riscv_inst.h
-│   ├── rob_testbench.sv
-│   ├── rs_testbench.sv
-│   ├── template.sv
-│   ├── testbench.sv
-│   ├── visual_c_hooks.cpp
-│   └── visual_testbench.v
-├── tree.txt
-└── verilog
+├── README.m
+└── Verilog
     ├── PRF.sv
     ├── ROB.sv
     ├── arch.sv
@@ -178,11 +103,5 @@ make "the module name"
     ├── rs.sv
     └── wb_stage.sv
 
-4 directories, 95 files
 
 ```
-
-
-## Reference
-Verilog Cheatsheet
-- https://www.cl.cam.ac.uk/teaching/1011/ECAD+Arch/files/SystemVerilogCheatSheet.pdf
